@@ -2,20 +2,20 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-       // int name;
-        //name = 10;
-        Scanner odczyt = new Scanner(System.in);
-      //  System.out.println(name);
-
-        String name = odczyt.nextLine();
 
 
+        System.out.println("ile masz lat?");
+        Scanner skan = new Scanner(System.in);
+        String name = skan.nextLine();
 
-
-
+        System.out.println("Masz " + name + " lat");
+        System.out.println("Jak się nazywasz?");
+        String nazwa = skan.nextLine();
+        System.out.println("Masz na imię " + nazwa);
 
 
     }
 
 
-}
+
+    }
